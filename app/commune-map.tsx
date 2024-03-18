@@ -29,6 +29,7 @@ export default function CommuneMap({ data }: { data: any }) {
     // mapStyle={"https://demotiles.maplibre.org/style.json"} // MapLibre
     >
       <NavigationControl position="bottom-left" />
+      <FullscreenControl position="top-left"/>
 
       {data.map((entry: any, index: any) => (
         <>
